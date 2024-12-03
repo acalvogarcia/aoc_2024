@@ -1,0 +1,62 @@
+cabal-version:      3.4
+name:               aoc2024-haskell
+version:            0.1.0.0
+-- synopsis:
+-- description:
+author:             Alvaro Calvo
+maintainer:         cokeiv@gmail.com
+-- copyright:
+build-type:         Simple
+-- extra-source-files:
+
+common warnings
+    ghc-options: -Wall
+
+library
+    import:           warnings
+    exposed-modules:  Split
+    -- other-modules:
+    -- other-extensions:
+    build-depends:    base ^>=4.17.2.1
+    hs-source-dirs:   src
+    default-language: GHC2021
+
+executable day01
+    import:           warnings
+    main-is:          Day01.hs
+    -- other-modules:
+    -- other-extensions:
+    build-depends:
+        base ^>=4.17.2.1,
+        array,
+        aoc2024-haskell
+
+    hs-source-dirs:   exe
+    default-language: GHC2021
+
+executable day02
+    import:           warnings
+    main-is:          Day02.hs
+    -- other-modules:
+    -- other-extensions:
+    build-depends:
+        base ^>=4.17.2.1,
+        array,
+        aoc2024-haskell
+
+    hs-source-dirs:   exe
+    default-language: GHC2021
+
+executable day03
+    import:           warnings
+    main-is:          Day03.hs
+    -- other-modules:
+    -- other-extensions:
+    build-depends:
+        base ^>=4.17.2.1,
+        regex-tdfa,
+        aoc2024-haskell
+
+    hs-source-dirs:   exe
+    default-language: GHC2021
+
