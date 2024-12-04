@@ -60,3 +60,15 @@ executable day03
     hs-source-dirs:   exe
     default-language: GHC2021
 
+executable day04
+    import:           warnings
+    main-is:          Day04.hs
+    -- other-modules:
+    -- other-extensions:
+    build-depends:
+        base ^>=4.17.2.1,
+        regex-tdfa,
+        aoc2024-haskell
+
+    hs-source-dirs:   exe
+    default-language: GHC2021
