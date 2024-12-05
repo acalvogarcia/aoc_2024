@@ -80,7 +80,6 @@ executable day05
     -- other-extensions:
     build-depends:
         base ^>=4.17.2.1,
-        regex-tdfa,
         aoc2024-haskell
 
     hs-source-dirs:   exe
