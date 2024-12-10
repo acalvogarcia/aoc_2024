@@ -133,3 +133,14 @@ executable day09
     hs-source-dirs:   exe
     default-language: GHC2021
 
+executable day10
+    import:           warnings
+    main-is:          Day10.hs
+    -- other-modules:
+    -- other-extensions:
+    build-depends:
+        base ^>=4.17.2.1,
+        aoc2024-haskell
+
+    hs-source-dirs:   exe
+    default-language: GHC2021
